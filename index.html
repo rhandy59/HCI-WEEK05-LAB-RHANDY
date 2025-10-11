@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Web App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Component -->
+    <header class="main-header">
+        <div class="container main-nav">
+            <div class="logo">
+                <img src="book.png" alt="Bookstore Logo" class="logo-image" />
+                <h1>Bookstore</h1>
+            </div>
+            <nav class="navigation">
+                <ul class="nav-links">
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#add-book">Add Book</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Books Section -->
+        <section class="container hero" id="books">
+            <div class="hero-text">
+                <h1>Welcome to the Bookstore</h1>
+                <p>Your one-stop shop for all your reading needs.</p>
+                <h2>Book List</h2>
+                <div id="book-list">
+                    <!-- List of books will appear here -->
+                </div>
+            <div class="book-logo">
+                <img src="book.png" alt="Books Image" class="book-image" />
+
+                <!-- Featured Books Section -->
+<section id="featured-books" class="featured-books">
+    <h2>Our Featured Books</h2>
+    <div class="book-cards">
+        <div class="book-card">
+            <img src="book (1).png" alt="Book Image" class="book-image" />
+            <h3>The Art of Coding</h3>
+            <p>Explore the beauty of programming through clear examples and deep insights.</p>
+        </div>
+
+        <div class="book-card">
+            <img src="idea.png" alt="lamp Image" class="book-image" />
+            <h3>Think Smart</h3>
+            <p>Improve your creativity and problem-solving skills with practical lessons.</p>
+        </div>
+
+        <div class="book-card">
+            <img src="growth.png" alt="Business Image" class="book-image" />
+            <h3>Business Growth </h3>
+            <p>Learn how to grow your business using modern strategies and data analysis.</p>
+        </div>
+    </div>
+</section>
+
+            </div>
+            </div>
+        </section>
+
+        <!-- Add Book Section -->
+        <section id="add-book">
+            <h2>Add a New Book</h2>
+            <form id="add-book-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="author" placeholder="Author" required>
+                <button type="submit">Add Book</button>
+            </form>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: bookstore@example.com</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Bookstore Web App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
